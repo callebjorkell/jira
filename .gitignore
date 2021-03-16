@@ -10,3 +10,4 @@ schemas/*.json
 /_t/.password-store/GoJira/api-token:gojira@corybennett.org.gpg
 /_t/.password-store/GoJira/api-token:mothra@corybennett.org.gpg
 dist
+.idea
