@@ -43,7 +43,7 @@ all:
 	GO111MODULE=off $(GO) get -u github.com/mitchellh/gox
 	rm -rf dist
 	mkdir -p dist
-	gox -ldflags="-w -s" -ldflags="-X 'github.com/go-jira/jira.VERSION=$(VERSION)'" -output="dist/github.com/go-jira/jira-{{.OS}}-{{.Arch}}" -osarch="darwin/amd64 linux/386 linux/amd64 windows/386 windows/amd64" ./cmd/jira
+	gox -ldflags="-w -s" -ldflags="-X 'github.com/callebjorkell/jira.VERSION=$(VERSION)'" -output="dist/github.com/callebjorkell/jira-{{.OS}}-{{.Arch}}" -osarch="darwin/amd64 linux/386 linux/amd64 windows/386 windows/amd64" ./cmd/jira
 
 install:
 	${MAKE} GOBIN=$$HOME/bin build

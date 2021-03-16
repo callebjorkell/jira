@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/go-jira/jira/jiradata"
+	"github.com/callebjorkell/jira/jiradata"
 )
 
 type ComponentProvider interface {

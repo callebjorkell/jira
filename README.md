@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/go-jira/jira.svg?branch=master)](https://travis-ci.org/go-jira/jira)
-[![GoDoc](https://godoc.org/github.com/go-jira/jira?status.svg)](https://godoc.org/github.com/go-jira/jira)
+[![GoDoc](https://godoc.org/github.com/callebjorkell/jira?status.svg)](https://godoc.org/github.com/callebjorkell/jira)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # go-jira
@@ -18,15 +18,15 @@ Commands which previously took a username will now expect an email address such 
 
 ### Download
 
-You can download one of the pre-built binaries for **go-jira** [here](https://github.com/go-jira/jira/releases).
+You can download one of the pre-built binaries for **go-jira** [here](https://github.com/callebjorkell/jira/releases).
 
 ### Build
 
 You can build and install the official repository with [Go](https://golang.org/dl/) (before running the below command, ensure you have `GO111MODULE=on` set in your environment):
 
-	go get github.com/go-jira/jira/cmd/jira
+	go get github.com/callebjorkell/jira/cmd/jira
 
-This will checkout this repository into `$GOPATH/src/github.com/go-jira/jira/`, build, and install it.
+This will checkout this repository into `$GOPATH/src/github.com/callebjorkell/jira/`, build, and install it.
 
 It should then be available in $GOPATH/bin/jira.
 
@@ -268,7 +268,7 @@ hard-coded templates with `jira export-templates` which will write them to **~/.
 
 #### Writing/Editing Templates
 
-First the basic templating functionality is defined by the Go language 'text/template' library.  The library reference documentation can be found [here](https://golang.org/pkg/text/template/), and there is a good primer document [here](https://gohugo.io/templates/go-templates/).  `go-jira` also provides a few extra helper functions to make it a bit easier to format the data, those functions are defined [here](https://github.com/go-jira/jira/blob/master/jiracli/templates.go#L64).
+First the basic templating functionality is defined by the Go language 'text/template' library.  The library reference documentation can be found [here](https://golang.org/pkg/text/template/), and there is a good primer document [here](https://gohugo.io/templates/go-templates/).  `go-jira` also provides a few extra helper functions to make it a bit easier to format the data, those functions are defined [here](https://github.com/callebjorkell/jira/blob/master/jiracli/templates.go#L64).
 
 Knowing what data and fields are available to any given template is not obvious. The easiest approach to determine what is available is to use the `debug` template on any given operation.  For example to find out what is available to the "view" templates, you can use:
 ```

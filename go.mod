@@ -1,4 +1,4 @@
-module github.com/go-jira/jira
+module github.com/callebjorkell/jira
 
 go 1.12
 
@@ -23,7 +23,7 @@ require (
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/jinzhu/copier v0.0.0-20180308034124-7e38e58719c3
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/kr/pretty v0.1.0
+	github.com/kr/pretty v0.1.0 // indirect
 	github.com/kr/pty v1.1.4 // indirect
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.3 // indirect

@@ -8,8 +8,8 @@ import (
 	"github.com/coryb/figtree"
 	"github.com/coryb/oreo"
 
-	"github.com/go-jira/jira/jiracli"
-	"github.com/go-jira/jira/jiracmd"
+	"github.com/callebjorkell/jira/jiracli"
+	"github.com/callebjorkell/jira/jiracmd"
 	"gopkg.in/coryb/yaml.v2"
 	"gopkg.in/op/go-logging.v1"
 )
